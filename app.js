@@ -1,3 +1,4 @@
+//i got the code for this java script from a tutorial by DevEd on youtube
 const navSlide  = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');

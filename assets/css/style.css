@@ -320,6 +320,71 @@ Used bootstrap template for this section the code was taken from https://mdboots
   }
 }
 
+/*---------------------------------------------------This is my Contact Page Css/contact form css */
+
+.contact{
+		padding: 4%;
+		height: 400px;
+        font-family: "Poppins" , sans-serif;
+	}
+	.col-md-3{
+		background: #f1a602;
+		padding: 4%;
+		border-top-left-radius: 0.5rem;
+		border-bottom-left-radius: 0.5rem;
+	}
+	.contact-info{
+		margin-top:10%;
+	}
+	.contact-info img{
+		margin-bottom: 15%;
+	}
+    .contact-info h4{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+	.contact-info h2{
+		margin-bottom: 10%;
+        color: #383838;
+        font-size: 1.4rem;
+        font-family: "Limelight" , sans-serif;
+	}
+	.col-md-9{
+		background: #dadada;
+		padding: 3%;
+		border-top-right-radius: 0.5rem;
+		border-bottom-right-radius: 0.5rem;
+	}
+	.contact-form label{
+		font-weight:600;
+	}
+	.contact-form button{
+		background: #f1a602;
+		color: #dadada;
+		font-weight: 600;
+		width: 25%;
+        font-family: "Limelight" , sans-serif;
+	}
+	.contact-form button:focus{
+		box-shadow:none;
+	}
+
+    .contact-spacer{
+        height: 40%;
+    }
+
+/* Responsive layout - gallery page */
+@media screen and (max-width: 786px) {
+  
+  .contact-img{
+      display: none;
+  }
+
+  .contact-spacer{
+      height: 50%;
+  }
+
+}
 
 /*---------------------------------------------------Footer Section */
 
