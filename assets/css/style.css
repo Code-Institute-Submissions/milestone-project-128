@@ -320,7 +320,7 @@ Used bootstrap template for this section the code was taken from https://mdboots
   }
 }
 
-/*---------------------------------------------------This is my Contact Page Css/contact form css */
+/*---------------------------------------------------This is my Contact Page Css/contact form css / i used w3schools for help with this form */
 
 .contact{
 		padding: 4%;
@@ -385,6 +385,68 @@ Used bootstrap template for this section the code was taken from https://mdboots
   }
 
 }
+/*---------------------------------------------------History page Section */
+.jumbotron {
+    position: relative;
+    padding: 5rem 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: 0;
+    border-radius: 0;
+    color: #fff;
+    text-align: center;
+    background-image: url("../images/cpopback.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.position-relative{
+    position: relative !important;
+}
+.content-wrapper{
+    margin: 0 auto;
+}
+
+.jumbotron-title {
+    margin-top: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #dadada;
+    font-family: "Limelight" , sans-serif;
+    font-size: 40px;
+    background-color: rgb(129, 27, 27);
+    border-style: outset;
+}
+.display-1 {
+    font-size: 2.875rem;
+    font-weight: 300;
+}
+
+.jumbotron-subtitle{
+        font-size: 1.25rem;
+        font-family: "Poppins" , sans-serif;
+        background-color: rgb(129, 27, 27);
+        color: #dadada;
+        border-style: outset;
+       
+}
+
+.history{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    
+}
+
+.history-text{
+    color: #383838;
+    font-weight: 300;
+    margin: 0 auto;
+    max-width: 50rem;
+}
+
+
+
 
 /*---------------------------------------------------Footer Section */
 
