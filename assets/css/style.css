@@ -25,6 +25,21 @@ h4{
     text-transform: uppercase;
 }
 
+#universal-heading{
+    font-family: "limelight" , sans-serif;
+    color: #383838;
+    text-align: center;
+    background-color: #f1a602;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#universal-heading span{
+    color: #dadada;
+}
+
+
 .spacer{
     height: 4px;
 	width: 40%;
@@ -269,6 +284,7 @@ color: #f1a602;
 @media screen and (max-width: 1085px){
     .card{
         width: 13rem;
+        
        
     }
 }
@@ -283,6 +299,61 @@ Used bootstrap template for this section the code was taken from https://mdboots
 
 */
 
+
+/*-----------------------------------------------------------------packages page css*/
+
+.packages-spacer{
+    height: 10px;
+    background-color: #f1a602;
+}
+
+
+#package-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/fall.jpg");
+}
+
+.card-block h4{
+text-align: center;
+}
+
+.card-title{
+    font-family: "Limelight" , sans-serif;
+    padding-top: 10px;
+    margin-bottom: 0;
+    
+}
+.card-block p{
+    color: #383838;
+}
+
+.card-body a{
+    text-decoration: none;
+    color: #383838;
+}
+
+.card-body a:hover{
+    color: #f1a602;
+}
+
+.card-body .btn{
+    background-color: rgb(129, 27, 27);
+    color: #dadada;
+}
+
+.list{
+    color: #383838;
+}
+
+.list li{
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+
+
+
+
 /*-----------------------------------------------------------------Gallery page css*/
 
 .row {
@@ -291,7 +362,7 @@ Used bootstrap template for this section the code was taken from https://mdboots
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+
 .column {
   flex: 25%;
   max-width: 25%;
@@ -302,6 +373,12 @@ Used bootstrap template for this section the code was taken from https://mdboots
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+
+.gallery-spacer{
+    height: 10px;
+    background-color: #f1a602;
 }
 
 /* Responsive layout tab - gallery page */
@@ -322,13 +399,18 @@ Used bootstrap template for this section the code was taken from https://mdboots
 
 /*---------------------------------------------------This is my Contact Page Css/contact form css / i used w3schools for help with this form */
 
+#contact-section{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/fall.jpg");
+}
+
+
 .contact{
 		padding: 4%;
 		height: 400px;
         font-family: "Poppins" , sans-serif;
 	}
 	.col-md-3{
-		background: #f1a602;
+		background: rgb(129, 27, 27);
 		padding: 4%;
 		border-top-left-radius: 0.5rem;
 		border-bottom-left-radius: 0.5rem;
@@ -342,15 +424,16 @@ Used bootstrap template for this section the code was taken from https://mdboots
     .contact-info h4{
         font-size: 1.2rem;
         text-align: center;
+        color: #dadada;
     }
 	.contact-info h2{
 		margin-bottom: 10%;
-        color: #383838;
+        color: #dadada;
         font-size: 1.4rem;
         font-family: "Limelight" , sans-serif;
 	}
 	.col-md-9{
-		background: #dadada;
+		background: #f1a602;
 		padding: 3%;
 		border-top-right-radius: 0.5rem;
 		border-bottom-right-radius: 0.5rem;
@@ -359,18 +442,23 @@ Used bootstrap template for this section the code was taken from https://mdboots
 		font-weight:600;
 	}
 	.contact-form button{
-		background: #f1a602;
+		background: rgb(129, 27, 27);
 		color: #dadada;
 		font-weight: 600;
 		width: 25%;
         font-family: "Limelight" , sans-serif;
 	}
+
 	.contact-form button:focus{
 		box-shadow:none;
 	}
+    .contact-form button:hover{
+        color: #f1a602;
+    }
 
     .contact-spacer{
-        height: 40%;
+        height: 50%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/fall.jpg");
     }
 
 /* Responsive layout - gallery page */
@@ -418,6 +506,11 @@ Used bootstrap template for this section the code was taken from https://mdboots
     background-color: rgb(129, 27, 27);
     border-style: outset;
 }
+
+.jumbotron-title span{
+    color: #f1a602;
+}
+
 .display-1 {
     font-size: 2.875rem;
     font-weight: 300;
@@ -443,6 +536,11 @@ Used bootstrap template for this section the code was taken from https://mdboots
     font-weight: 300;
     margin: 0 auto;
     max-width: 50rem;
+}
+
+.history-spacer{
+    height: 10px;
+    background-color: #f1a602;
 }
 
 
