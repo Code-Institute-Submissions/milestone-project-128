@@ -221,7 +221,7 @@ This user can navigate to the partner section that displays the companies that o
 This ensures the user that the quality of machinery we offer is unmatched by any other company on the market. 
 </li>
 <li><em>I want to be able to tailor my own rental package and have a way to organise a booking for a specific date.</em>
-This user can navigate to the packages page and select the create your own packages option,
+This user can navigate to the packages page and read the create your own packages option,
 which explains what options they have to choose from. they will then be brought to the contact form where they can fill out what specifics they want.</li>
 
 </ul>
@@ -276,12 +276,17 @@ to replace it with a text logo instead as i found that looked alot better.</li>
 The contents of this website are mostly fictional and have been made up by myself.
 i got alot of the images from a personal source except for some in the gallery i got from google images. 
 
-Thank you to Mark Railton for suggesting i look at the following README.md file by Code Institute student
-Jack Sheehy https://github.com/jacksheehy15/milestone-project-1#testing when doing my own file.
+
 
 <h4>media</h4>
-all image links taken from google images can be found below 
-<!--fill in image links -->
-
+All image links taken from google images can be found below <br>
+<ul>
+<li><a href="https://www.google.ie/url?sa=i&url=https%3A%2F%2Fwww.miscw.com%2Flets-boycott-popcorn-malls-waste-hard-earned-money-8562.html&psig=AOvVaw1vkTRgC4Rum7WSInJQDIXU&ust=1605642088755000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCukovph-0CFQAAAAAdAAAAABAI">Popcorn Package</a></li>
+<li><a href="https://www.google.ie/url?sa=i&url=https%3A%2F%2Fross-companies.com%2Fstay-cool-with-these-sweet-treats-silver-spring-apartment%2F&psig=AOvVaw2CIdu4fY7oXG42FFvlMZX8&ust=1605642948754000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjBpNrvh-0CFQAAAAAdAAAAABAD">Ice-Cream Package</a></li>
+<li><a href="https://www.google.ie/url?sa=i&url=https%3A%2F%2Fwww.mywebtimes.com%2Farticles%2Ftn%2F2017%2F07%2F18%2F6a33f938d3705ae089a87b17a1644d26%2Findex.xml&psig=AOvVaw2UHmEHqeG7u-32XTNkVorJ&ust=1605643795935000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCf4LTvh-0CFQAAAAAdAAAAABAD">Slush Package</a></li>
+<li><a href="https://www.google.ie/url?sa=i&url=https%3A%2F%2Fwww.westend61.de%2Fen%2FimageView%2FGD001081%2Fyoung-woman-eating-candy-floss-at-a-fun-fair&psig=AOvVaw2-LDd06Cuww6iLEKpaBK7j&ust=1605640947412000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDc-sToh-0CFQAAAAAdAAAAABAD">Candyfloss Package</a></li>
+<li><a href="https://www.google.ie/url?sa=i&url=https%3A%2F%2Fmyfoodstory.com%2Fno-brainer-loaded-nachos-platter-recipe%2F&psig=AOvVaw1rfU9A-e5JGAmeNq7EgYgx&ust=1605640386290000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjdtNvih-0CFQAAAAAdAAAAABAD">Nacho Package</a></li>
+<li><a href="https://www.google.ie/url?sa=i&url=https%3A%2F%2Fmyfoodstory.com%2Fno-brainer-loaded-nachos-platter-recipe%2F&psig=AOvVaw1rfU9A-e5JGAmeNq7EgYgx&ust=1605640386290000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjdtNvih-0CFQAAAAAdAAAAABAD">Create Package</a></li>
+</ul>
 <h3>Acknowledgements:</h3>
 Thanks to my mentor Mark Railton for his useful suggestions and time.

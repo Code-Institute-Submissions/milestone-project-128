@@ -65,10 +65,16 @@ h4{
     font-size: 20px;
     text-decoration: none;
     font-family: 'Limelight' , sans-serif;
+    
 }
 
 .logo span{
     color: #f1a602;
+}
+
+.logo h1{
+    margin-bottom: 0px;
+
 }
 nav{    
     
@@ -272,20 +278,23 @@ nav{
    width: 20rem;
 }
 
-.card-link a{
+.card p{
+    padding-left: 10px;
+}
+
+.card-link {
     text-decoration: none;
     color: #383838;
+    padding-left: 10px;
 }
 
 .card-link :hover{
-color: #f1a602;
+    color: #f1a602;
 }
 
 @media screen and (max-width: 1085px){
     .card{
         width: 13rem;
-        
-       
     }
 }
 
@@ -441,6 +450,7 @@ text-align: center;
 	.contact-form label{
 		font-weight:600;
 	}
+
 	.contact-form button{
 		background: rgb(129, 27, 27);
 		color: #dadada;
@@ -464,6 +474,17 @@ text-align: center;
 /* Responsive layout - gallery page */
 @media screen and (max-width: 786px) {
   
+  .col-md-3{
+		border-top-right-radius: 0.5rem;
+		border-bottom-left-radius: 0;
+	}
+
+    .col-md-9{
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0.5rem;
+    }
+
   .contact-img{
       display: none;
   }
