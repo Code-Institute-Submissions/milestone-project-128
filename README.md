@@ -18,12 +18,22 @@ This project is the first of four Milestone Projects that make up the Full Stack
  <h2>Table of Contents</h2>
 
 
+# **Table Of Contents**
+- [Go to User Experience](#user-experience)
+- [Go to Design Process](#design-process)
+- [Go to Features](#features)
+- [Go to Technologies Used](#technologies-used)
+- [Go to Testing](#testing)
+- [Go to Deployment](#deployment)
+- [Go to Credits](#credits)
+- [Go to Acknowledements](#acknowledgments)
 
 
 
 
 
-<h2>User Experience</h2>
+
+# User Experience (UX)
 This is the UX section. This is where i focus on who the website is for, what the website does 
 and how the website can give the user what they are looking for.
 
@@ -243,6 +253,17 @@ information about each package is clearly displayed in the packages section and 
 
 I validated both <b>HTML</b> and <b>CSS</b> with <a href="https://validator.w3.org/">W3C Markup Validation Service</a>
 
+<h3>Validation Results:</h3>
+<b>HTML</b>
+<ul><li>Home - no errors found</li></ul>
+<ul><li>Packages - no errors found</li></ul>
+<ul><li>Gallery - no errors found</li></ul>
+<ul><li>History - no errors found</li></ul>
+<ul><li>Contact - no errors found</li></ul>
+
+<b>CSS3</b>
+<ul><li>No errors Found</li></ul>
+
 <h3>Testing on different browsers:</h3>
 
 I manually tested the website on the following browsers:
@@ -254,13 +275,12 @@ I manually tested the website on the following browsers:
 </ul>
 
 <h3>Testing responsiveness on multiple devices and screen sizes:</h3>
+
 I manually tested the website by using Google Developer Tools to check each individual page and the website as a whole worked on different devices and different screen sizes,
 including: Moto G4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5 SE, iiPhone X, iPad,Phone 6/7/8, iPhone 6/7/8 Plus,  iPad Pro. 
 I also manually tested the site on my Pc/Laptop, Samsung tab s6, and Pixel 3.
 
 <h3>Issues Found:</h3>
-
-
 <ul>
 <li>i had an issue with content on pages overlapping my footer so i created a custom spacer div for each 
 page to give them a nice amount of room between content and footer.</li>
@@ -272,12 +292,11 @@ to replace it with a text logo instead as i found that looked alot better.</li>
 <!--Fill in after project is finished and deployed to guthub pages.-->
 
 <h3>Credits:</h3>
+
 <h4>content</h4>
 The contents of this website are mostly fictional and have been made up by myself.
-i got alot of the images from a personal source except for some in the gallery i got from google images. 
-
-
-
+i got alot of the images from a personal source except for some in the gallery i got from google images.
+ 
 <h4>media</h4>
 All image links taken from google images can be found below <br>
 <ul>
@@ -287,6 +306,22 @@ All image links taken from google images can be found below <br>
 <li><a href="https://www.google.ie/url?sa=i&url=https%3A%2F%2Fwww.westend61.de%2Fen%2FimageView%2FGD001081%2Fyoung-woman-eating-candy-floss-at-a-fun-fair&psig=AOvVaw2-LDd06Cuww6iLEKpaBK7j&ust=1605640947412000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDc-sToh-0CFQAAAAAdAAAAABAD">Candyfloss Package</a></li>
 <li><a href="https://www.google.ie/url?sa=i&url=https%3A%2F%2Fmyfoodstory.com%2Fno-brainer-loaded-nachos-platter-recipe%2F&psig=AOvVaw1rfU9A-e5JGAmeNq7EgYgx&ust=1605640386290000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjdtNvih-0CFQAAAAAdAAAAABAD">Nacho Package</a></li>
 <li><a href="https://www.google.ie/url?sa=i&url=https%3A%2F%2Fmyfoodstory.com%2Fno-brainer-loaded-nachos-platter-recipe%2F&psig=AOvVaw1rfU9A-e5JGAmeNq7EgYgx&ust=1605640386290000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjdtNvih-0CFQAAAAAdAAAAABAD">Create Package</a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.cl%2Fpin%2F206039751676833285%2F&psig=AOvVaw3vfzzmbDf0X2eUyO8xPe1Q&ust=1605707508494000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMD7juDcie0CFQAAAAAdAAAAABBZ">gallery 1 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F392587292497024300%2F&psig=AOvVaw3vfzzmbDf0X2eUyO8xPe1Q&ust=1605707508494000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMD7juDcie0CFQAAAAAdAAAAABBF">gallery 2 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.jmentertainment.co.uk%2Fcategory%2Fpopcorn-machine-hire%2F589%2Fpopcorn-cart-hire&psig=AOvVaw3vfzzmbDf0X2eUyO8xPe1Q&ust=1605707508494000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMD7juDcie0CFQAAAAAdAAAAABAh">gallery 3 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Factionevents.com%2Fproduct%2Fcarnival-food-carts%2F&psig=AOvVaw3vfzzmbDf0X2eUyO8xPe1Q&ust=1605707508494000&source=images&cd=vfe&ved=0CAIQjRxqGAoTCMD7juDcie0CFQAAAAAdAAAAABCIAQ">gallery 4 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F565624034435586354%2F&psig=AOvVaw37I_M_ms0yXSRkdcZ9O5Pj&ust=1605707836531000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC6gPzdie0CFQAAAAAdAAAAABA4">gallery 5 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.co.uk%2Fpin%2F418623727845096287%2F&psig=AOvVaw37I_M_ms0yXSRkdcZ9O5Pj&ust=1605707836531000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC6gPzdie0CFQAAAAAdAAAAABAv">gallery 6 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.xtreme-events.eu%2Fmodule%2Ffunfood-en%2Fnachos%2F&psig=AOvVaw1JL6DD9nXfJw-Sc38eXGg-&ust=1605707948524000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJja07Heie0CFQAAAAAdAAAAABAV">gallery 7 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.funfoods.ie%2Fproduct%2Flarge-ice-cream-machine-hire%2F&psig=AOvVaw2D3_fD9hIFNmeALe9mAaQr&ust=1605708261921000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIi1pMffie0CFQAAAAAdAAAAABAH">gallery 8 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.xtreme-events.eu%2Fmodule%2Fbeach-party-en%2Fslush-ice%2F&psig=AOvVaw3cZj2paRJGXf9osplUkV7O&ust=1605708305723000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKj2sNvfie0CFQAAAAAdAAAAABAu">gallery 9 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.disneyfoodblog.com%2F2019%2F04%2F22%2Fnews-and-review-ramones-serv-ice-station-brings-new-frozen-treats-to-cars-land-in-disney-california-adventure%2F&psig=AOvVaw3cZj2paRJGXf9osplUkV7O&ust=1605708305723000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKj2sNvfie0CFQAAAAAdAAAAABA0">gallery 10 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffuntasiaentertainment.co.uk%2Ffuntasia-products%2FPopcorn-and-Candyfloss-Stall-Hire&psig=AOvVaw3PL8RroXkC2_keXu-8_yYI&ust=1605708795029000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDV-8Thie0CFQAAAAAdAAAAABAF">gallery 11 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fundayltd.com%2Fcategory%2Ffood%2F156%2Fpopcorn-cart-hire-victorian-cart-hire&psig=AOvVaw3PL8RroXkC2_keXu-8_yYI&ust=1605708795029000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDV-8Thie0CFQAAAAAdAAAAABAu">gallery 12 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fun4events.co.uk%2Ffun-food-for-events%2F&psig=AOvVaw3JC0ecgoXHd87LvuWqlXYM&ust=1605708937641000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDzioniie0CFQAAAAAdAAAAABAR">gallery 13 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.skys-entertainment.com%2Fcategory%2Fpopcorn-and-candy-floss-carts%2F150%2Fcandy-floss-and-popcorn-stall-with-attendant&psig=AOvVaw3Fgh8e3a_qvsKTpZ4wkPdY&ust=1605716612720000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjt39T-ie0CFQAAAAAdAAAAABBY">gallery 14 </a></li>
+<li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffancyatreat.co.uk%2Fpopcorn-cart-hire-london%2F&psig=AOvVaw3Fgh8e3a_qvsKTpZ4wkPdY&ust=1605716612720000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjt39T-ie0CFQAAAAAdAAAAABAv">gallery 15 </a></li>
+
 </ul>
 <h3>Acknowledgements:</h3>
 Thanks to my mentor Mark Railton for his useful suggestions and time.
