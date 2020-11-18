@@ -108,56 +108,6 @@ nav {
   cursor: pointer;
 }
 
-/*----------------------------------------nav Tablet query--*/
-@media screen and (max-width: 1085px) {
-  .nav-links {
-    width: 60%;
-  }
-}
-/*---------------------------------------nav mobile query--*/
-
-@media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  .nav-links {
-    position: absolute;
-    right: 0px;
-    height: 92vh;
-    top: 8vh;
-    background-color: rgb(129, 27, 27);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-    z-index: 1;
-  }
-  .nav-links li {
-    opacity: 0;
-  }
-  .burger {
-    display: block;
-  }
-}
-
-.nav-active {
-  transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
 /* Page Wrapper*/
 .page-wrapper {
   height: 20%;
@@ -269,12 +219,6 @@ nav {
   color: #f1a602;
 }
 
-@media screen and (max-width: 1085px) {
-  .card {
-    width: 13rem;
-  }
-}
-
 /*------------------------------------------Review Section
 
 Used bootstrap template for this section the code was taken from https://mdbootstrap.com
@@ -331,7 +275,6 @@ Used bootstrap template for this section the code was taken from https://mdboots
 }
 
 /*-----------------------------------------------------------------Gallery page css*/
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -349,19 +292,64 @@ Used bootstrap template for this section the code was taken from https://mdboots
   vertical-align: middle;
   width: 100%;
 }
-
-.row #gallery {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../images/fall.jpg");
-}
-
 .gallery-spacer {
   height: 10px;
   background-color: #f1a602;
 }
 
-/* Responsive layout tab - gallery page */
+#gallery {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/fall.jpg");
+}
 
+#lane-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/fall.jpg");
+}
+
+#lane-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/fall.jpg");
+}
+
+#lane-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/fall.jpg");
+}
+
+#lane-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/fall.jpg");
+}
+
+#gal9 {
+  height: 651px;
+}
+
+#gal10 {
+  height: 500px;
+}
+
+#gal11 {
+  height: 450px;
+}
+
+#gal12 {
+  height: 740px;
+}
+
+#gal13 {
+  height: 434px;
+}
+
+#gal14 {
+  height: 376px;
+}
+
+#gal15 {
+  height: 550px;
+}
+*/
 
 /*---------------------------------------------------This is my Contact Page Css/contact form css / i used w3schools for help with this form */
 
@@ -429,27 +417,6 @@ Used bootstrap template for this section the code was taken from https://mdboots
     url("../images/fall.jpg");
 }
 
-/* Responsive layout - gallery page */
-@media screen and (max-width: 786px) {
-  .col-md-3 {
-    border-top-right-radius: 0.5rem;
-    border-bottom-left-radius: 0;
-  }
-
-  .col-md-9 {
-    width: 100%;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 0.5rem;
-  }
-
-  .contact-img {
-    display: none;
-  }
-
-  .contact-spacer {
-    height: 50%;
-  }
-}
 /*---------------------------------------------------History page Section */
 .jumbotron {
   position: relative;
@@ -631,12 +598,15 @@ li i {
     transition: transform 0.5s ease-in;
     z-index: 1;
   }
+
   .nav-links li {
     opacity: 0;
   }
+
   .burger {
     display: block;
   }
+
   .col-md-3 {
     border-top-right-radius: 0.5rem;
     border-bottom-left-radius: 0;
@@ -655,19 +625,74 @@ li i {
   .contact-spacer {
     height: 50%;
   }
+
   .column {
     flex: 100%;
     max-width: 100%;
   }
+
+  #gal9 {
+    height: 500px;
+  }
+
   .footer-items {
     width: 100%;
   }
 }
 
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
 @media screen and (max-width: 1085px) {
+  .nav-links {
+    width: 60%;
+  }
+
   .column {
     flex: 50%;
     max-width: 50%;
+  }
+
+  #lane-1 {
+    display: none;
+  }
+
+  #gal9 {
+    height: auto;
+  }
+
+  #gal15 {
+    height: auto;
+  }
+
+  #lane-4 {
+    display: none;
+  }
+
+  #gallery {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../images/fall.jpg");
+  }
+
+  #lane-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../images/fall.jpg");
+  }
+
+  .card {
+    width: 13rem;
   }
 
   .footer-items {
