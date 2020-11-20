@@ -72,7 +72,7 @@ and how the website can give the user what they are looking for.
 i also want users to be able to quickly and easily contact our company with questions or to arrange a booking
 
 
-## Design Process:
+# Design Process:
 
 ### Strategy Plane:
 The main goal of the website is to attract users who are looking to hire concession machinery and equipment to give their private function a bit more flair.
